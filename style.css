@@ -37,6 +37,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  margin-left: 1rem;
 }
 
 .nav-links {
@@ -60,6 +61,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  margin-right: 20rem;
 }
 
 .logo:hover {
@@ -362,8 +364,15 @@ section {
   
   .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 70%;
+    height: 70%;
+  }
+
+  .project-img1 {
+    border-radius: 2rem;
+    width:110%;
+    height: 110%;
+    margin-top: 60%;
   }
   
   .project-title {
@@ -402,10 +411,13 @@ section {
     justify-content: center;
     gap: 0.5rem;
     margin: 1rem;
+    margin-left: 1rem;
   }
   
   .contact-info-container p {
     font-size: larger;
+    margin-left: -2rem;
+    padding-left: -2rem;
   }
   
   .contact-icon {
@@ -413,7 +425,8 @@ section {
   }
   
   .email-icon {
-    height: 2.5rem;
+    height: 5rem;
+    margin-left: -2rem;
   }
   
   /* FOOTER SECTION */
@@ -427,4 +440,20 @@ section {
     text-align: center;
   }
 
+  .details-container p ,h3 {
 
+    padding: 1rem;
+
+  }
+  .btn-container1{
+    margin-top: 12%;
+  }
+  .btn-container0{
+    margin-top: 10% ;
+  }
+
+  .reels {
+    padding-top: 20%;
+  }
+
+  

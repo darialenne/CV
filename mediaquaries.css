@@ -16,11 +16,12 @@
     }
     #experience,
     .experience-details-container {
-      margin-top: 2rem;
+      margin-top: 3rem;
     }
     #profile,
     .section-container {
       display: block;
+      padding-bottom: -20%;
     }
     .arrow {
       display: none;
@@ -40,6 +41,10 @@
     .about-containers {
       margin-top: 0;
     }
+
+    .section-container img{
+        margin-left: 5%;
+    }
   }
 
   @media screen and (max-width: 600px) {
@@ -49,7 +54,7 @@
     }
     #profile {
       height: 83vh;
-      margin-bottom: 0;
+      margin-bottom: 0rem;
     }
     article {
       font-size: 1rem;
@@ -87,12 +92,29 @@
       justify-content: center;
     }
     .section__text__p2 {
-      font-size: 1.25rem;
+      font-size: 1rem;
     }
     .title {
       font-size: 2rem;
     }
     .text-container {
       text-align: justify;
+    }
+    .section-container img{
+        aspect-ratio: 0;
+        width: 150%;
+        height: 50%;
+        margin-left:-25%;
+        padding-bottom: 20%;
+        padding-top: -30%;
+    }
+    
+    #hamburger-nav {
+        margin-left: -5%;
+    }
+
+    .logo{
+        padding: o;
+        margin: 0;
     }
   }
