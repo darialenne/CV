@@ -54,7 +54,8 @@
     }
     #profile {
       height: 83vh;
-      margin-bottom: 0rem;
+      margin: auto;
+      
     }
     article {
       font-size: 1rem;
@@ -107,6 +108,11 @@
         margin-left:-25%;
         padding-bottom: 20%;
         padding-top: -30%;
+        
+    }
+
+    .section-container {
+     margin: 2rem;
     }
     
     #hamburger-nav {
